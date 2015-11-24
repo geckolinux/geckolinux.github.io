@@ -6,7 +6,7 @@
  outline: 0;
 }
 .bss-slides figure{
-  position: absolute;
+  position: left;
   top: 0;
   width: 100%;
 }
