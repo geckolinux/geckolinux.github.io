@@ -1,17 +1,17 @@
 .bss-slides{
-  position: relative;
+  position: left;
   display: block;    
 }
 .bss-slides:focus{
  outline: 0;
 }
 .bss-slides figure{
-  position: left;
+  position: absolute;
   top: 0;
   width: 100%;
 }
 .bss-slides figure:first-child{
-  position: relative;
+  position: left;
 }
 .bss-slides figure img{
   opacity: 0;
