@@ -45,7 +45,12 @@
     }
 </style>
 
-<script src="slideshow.js"></script>
+
+        <script>
+            window.addEventListener('load', function () {
+                var slsh = new SlideShow('.slideshow', {timeout: 5000});
+            });
+        </script>
 
 
 
