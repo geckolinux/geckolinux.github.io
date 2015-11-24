@@ -9,8 +9,8 @@
     <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
     <link rel="stylesheet" type="text/css" href="stylesheets/github-light.css" media="screen">
     
-<link rel="stylesheet" href="bower_components/simple-slideshow/src/slideshow.css">
-<script src="bower_components/simple-slideshow/src/slideshow.js"></script>
+<link rel="stylesheet" href="slideshow.css">
+<script src="slideshow.js"></script>
     
   </head>
   
@@ -39,10 +39,13 @@
     <li><a href="test3.html"><img src="test3.jpg" title="Test 3" alt="Description for image 3"></a></li>
 </ul>
 
-    <script>
-      var slsh = new SlideShow('.slideshow', {timeout: 5000});
-    </script>
-</div>
+        <script src="slideshow.js"></script>
+        <script>
+            window.addEventListener('load', function () {
+                var slsh = new SlideShow('.slideshow', {timeout: 5000});
+            });
+        </script>
+
 
 
 
