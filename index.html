@@ -9,8 +9,8 @@
     <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
     <link rel="stylesheet" type="text/css" href="stylesheets/github-light.css" media="screen">
     
-    <script src="better-simple-slideshow.js"></script>
-    <link rel="stylesheet" href="stylesheets/simple-slideshow-styles.css" type="text/css" media="all">
+<link rel="stylesheet" href="bower_components/simple-slideshow/src/slideshow.css">
+<script src="bower_components/simple-slideshow/src/slideshow.js"></script>
     
   </head>
   
@@ -33,19 +33,14 @@
 
 <p>GeckoLinux is a Linux spin based on the openSUSE distribution, with a focus on polish and out-of-the-box usability on the desktop.</p>
 
-<div class="bss-slides num1">
-    <figure class="bss-show">
-        <img src="https://cloud.githubusercontent.com/assets/2692138/11381655/3dfa5bc2-92cb-11e5-8dd8-d3a14144a5f1.png" width="100%" />
-        <figcaption>GeckoLinux Cinnamon edition</figcaption> 
-    </figure>
+<ul class="slideshow">
+    <li><a href="https://cloud.githubusercontent.com/assets/2692138/11381655/3dfa5bc2-92cb-11e5-8dd8-d3a14144a5f1.png"><img src="https://cloud.githubusercontent.com/assets/2692138/11381655/3dfa5bc2-92cb-11e5-8dd8-d3a14144a5f1.png" title="GeckoLinux Cinnamon edition" alt="GeckoLinux Cinnamon edition"></a></li>
+    <li><a href="https://cloud.githubusercontent.com/assets/2692138/11381660/49d21c8c-92cb-11e5-906f-1f5c774e92ed.png"><img src="https://cloud.githubusercontent.com/assets/2692138/11381660/49d21c8c-92cb-11e5-906f-1f5c774e92ed.png" title="GeckoLinux XFCE edition" alt="GeckoLinux XFCE edition"></a></li>
+    <li><a href="test3.html"><img src="test3.jpg" title="Test 3" alt="Description for image 3"></a></li>
+</ul>
 
-    <figure class="bss-show">
-        <img src="https://cloud.githubusercontent.com/assets/2692138/11381660/49d21c8c-92cb-11e5-906f-1f5c774e92ed.png" width="100%" />
-        <figcaption>GeckoLinux XFCE edition</figcaption> 
-    </figure>
-    
     <script>
-      makeBSS('.bss-slides'); 
+      var slsh = new SlideShow('.slideshow', {timeout: 5000});
     </script>
 </div>
 
