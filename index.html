@@ -68,6 +68,7 @@
 <li>An installable live DVD / USB image based on openSUSE under 2GB in size</li>
 <li>Individual editions for many different popular desktop environments with a pleasant default configuration</li>
 <li>Carefully selected open source desktop programs and proprietary media codecs pre-installed and ready to use</li>
+<li>Btrfs subvolume layout with Zstd transparent compression and automatic Snapper snapshots bootable via GRUB for easy rollbacks (<a href="https://github.com/geckolinux/geckolinux-project/wiki#how-to-rollback-to-a-snapshot">instructions</a>)</li>
 <li>Beautiful open source font rendering configured out of the box</li>
 <li>Optimal power management with TLP pre-installed</li>
 <li>Much more open source and patent encumbered software available in the pre-configured repositories</li>
@@ -83,7 +84,6 @@
 <li>GeckoLinux offers customized editions optimized for different desktop environments, whereas openSUSE requires the user to know how to install patterns and packages for different desktop environments.</li>
 <li>GeckoLinux comes pre-installed with common niceties such as proprietary media codecs, whereas openSUSE for legal reasons requires users to know how to add additional repositories and which packages to add.</li>
 <li>GeckoLinux prefers packages from the Packman repo when they are available, whereas some of openSUSE's default packages don't work with patent-restricted features even if the features are installed from other sources.</li>
-<li>GeckoLinux comes pre-configured with what many would consider to be good font rendering, whereas many users find openSUSE's default font configuration to be less than desirable.</li>
 <li>GeckoLinux does not force the installation of additional recommended packages after system installation, whereas openSUSE pre-installs patterns and automatically installs recommended package dependencies, thus causing many additional and possibly unwanted packages to be installed the first time the package manager is used.</li>
 <li>GeckoLinux pre-installed packages can be uninstalled with all of their dependencies, whereas openSUSE's patterns often cause uninstalled packages to be automatically re-installed.</li>
 <li>GeckoLinux does not use or pre-install PackageKit, which is known to interfere with the underlying Zypper package management system.</li>	
@@ -101,7 +101,7 @@ GeckoLinux <em>Static</em> editions are based on openSUSE Leap 15.3 with its per
 <h5>
 	<p>
 		<strong>Notice: </strong>Please verify your download checksums by clicking the &nbsp; <strong><em>i</em></strong> &nbsp; icon next to your download in the 
-		<a href="https://sourceforge.net/projects/geckolinux/files/Static/153.220104/">Sourceforge directory listing</a>.
+		<a href="https://sourceforge.net/projects/geckolinux/files/Static/153.220822/">Sourceforge directory listing</a>.
 	</p>
 </h5>
 
@@ -124,7 +124,7 @@ figcaption {
       <figure>
         <img src="https://cloud.githubusercontent.com/assets/2692138/11373681/4f073e64-92a1-11e5-8ef0-cf8b778cb5cf.jpg"></a>
         <figcaption>GeckoLinux </br> <em>Static</em> </br> Cinnamon
-		      </br> <a href="https://sourceforge.net/projects/geckolinux/files/Static/153.220104/GeckoLinux_STATIC_Cinnamon.x86_64-153.220104.0.iso/download"><img src="https://cloud.githubusercontent.com/assets/2692138/15225130/8ef35838-1842-11e6-915c-3a94c5a7f197.png"/></a>
+		      </br> <a href="https://sourceforge.net/projects/geckolinux/files/Static/153.220822/GeckoLinux_STATIC_Cinnamon.x86_64-153.220822.0.iso/download"><img src="https://cloud.githubusercontent.com/assets/2692138/15225130/8ef35838-1842-11e6-915c-3a94c5a7f197.png"/></a>
 
         </figcaption>
       </figure>
@@ -133,7 +133,7 @@ figcaption {
       <figure>
         <img src="https://cloud.githubusercontent.com/assets/2692138/11373686/52ad351e-92a1-11e5-88c5-5c124301b8d7.png"></a>
         <figcaption>GeckoLinux </br> <em>Static</em> </br> XFCE
-		      </br> <a href="https://sourceforge.net/projects/geckolinux/files/Static/153.220104/GeckoLinux_STATIC_XFCE.x86_64-153.220104.0.iso/download"><img src="https://cloud.githubusercontent.com/assets/2692138/15225130/8ef35838-1842-11e6-915c-3a94c5a7f197.png"/></a>
+		      </br> <a href="https://sourceforge.net/projects/geckolinux/files/Static/153.220822/GeckoLinux_STATIC_XFCE.x86_64-153.220822.0.iso/download"><img src="https://cloud.githubusercontent.com/assets/2692138/15225130/8ef35838-1842-11e6-915c-3a94c5a7f197.png"/></a>
 
         </figcaption>
       </figure>
@@ -142,7 +142,7 @@ figcaption {
       <figure>
         <img src="https://cloud.githubusercontent.com/assets/2692138/11734338/69d405e8-9f84-11e5-9559-1b4b0f0d0d8f.png"></a>
         <figcaption>GeckoLinux </br> <em>Static</em> </br> Gnome
-		      </br> <a href="https://sourceforge.net/projects/geckolinux/files/Static/153.220104/GeckoLinux_STATIC_Gnome.x86_64-153.220104.0.iso/download"><img src="https://cloud.githubusercontent.com/assets/2692138/15225130/8ef35838-1842-11e6-915c-3a94c5a7f197.png"/></a>
+		      </br> <a href="https://sourceforge.net/projects/geckolinux/files/Static/153.220822/GeckoLinux_STATIC_Gnome.x86_64-153.220822.0.iso/download"><img src="https://cloud.githubusercontent.com/assets/2692138/15225130/8ef35838-1842-11e6-915c-3a94c5a7f197.png"/></a>
 
         </figcaption>
       </figure>
@@ -151,7 +151,7 @@ figcaption {
       <figure>
         <img src="https://cloud.githubusercontent.com/assets/2692138/11913089/5b5a4722-a626-11e5-925d-cd52cb491fad.png"></a>
         <figcaption>GeckoLinux </br> <em>Static</em> </br> Plasma
-		      </br> <a href="https://sourceforge.net/projects/geckolinux/files/Static/153.220104/GeckoLinux_STATIC_Plasma.x86_64-153.220104.0.iso/download"><img src="https://cloud.githubusercontent.com/assets/2692138/15225130/8ef35838-1842-11e6-915c-3a94c5a7f197.png"/></a>
+		      </br> <a href="https://sourceforge.net/projects/geckolinux/files/Static/153.220822/GeckoLinux_STATIC_Plasma.x86_64-153.220822.0.iso/download"><img src="https://cloud.githubusercontent.com/assets/2692138/15225130/8ef35838-1842-11e6-915c-3a94c5a7f197.png"/></a>
 
         </figcaption>
       </figure>
@@ -162,7 +162,7 @@ figcaption {
       <figure>
         <img src="https://cloud.githubusercontent.com/assets/2692138/11911482/ab09c4d8-a5e4-11e5-96a1-5b38a8f928f5.png"></a>
         <figcaption>GeckoLinux </br> <em>Static</em> </br> Mate
-		      </br> <a href="https://sourceforge.net/projects/geckolinux/files/Static/153.220104/GeckoLinux_STATIC_Mate.x86_64-153.220104.0.iso/download"><img src="https://cloud.githubusercontent.com/assets/2692138/15225130/8ef35838-1842-11e6-915c-3a94c5a7f197.png"/></a>
+		      </br> <a href="https://sourceforge.net/projects/geckolinux/files/Static/153.220822/GeckoLinux_STATIC_Mate.x86_64-153.220822.0.iso/download"><img src="https://cloud.githubusercontent.com/assets/2692138/15225130/8ef35838-1842-11e6-915c-3a94c5a7f197.png"/></a>
         </figcaption>
       </figure>
     </div>
@@ -170,7 +170,7 @@ figcaption {
       <figure>
         <img src="https://user-images.githubusercontent.com/2692138/91643419-b1100600-e9f8-11ea-92b1-9a9f885585bb.png"></a>
         <figcaption>GeckoLinux </br> <em>STATIC</em> </br> Budgie
-		      </br> <a href="https://sourceforge.net/projects/geckolinux/files/Static/153.220104/GeckoLinux_STATIC_Budgie.x86_64-153.220104.0.iso/download"><img src="https://cloud.githubusercontent.com/assets/2692138/15225130/8ef35838-1842-11e6-915c-3a94c5a7f197.png"/></a>
+		      </br> <a href="https://sourceforge.net/projects/geckolinux/files/Static/153.220822/GeckoLinux_STATIC_Budgie.x86_64-153.220822.0.iso/download"><img src="https://cloud.githubusercontent.com/assets/2692138/15225130/8ef35838-1842-11e6-915c-3a94c5a7f197.png"/></a>
 
         </figcaption>
       </figure>
@@ -179,7 +179,7 @@ figcaption {
       <figure>
         <img src="https://cloud.githubusercontent.com/assets/2692138/11956434/2d5f7982-a888-11e5-9d25-5cd86a5028af.png"></a>
         <figcaption>GeckoLinux </br> <em>Static</em> </br> LXQt
-		      </br> <a href="https://sourceforge.net/projects/geckolinux/files/Static/153.220104/GeckoLinux_STATIC_LXQt.x86_64-153.220104.0.iso/download"><img src="https://cloud.githubusercontent.com/assets/2692138/15225130/8ef35838-1842-11e6-915c-3a94c5a7f197.png"/></a>
+		      </br> <a href="https://sourceforge.net/projects/geckolinux/files/Static/153.220822/GeckoLinux_STATIC_LXQt.x86_64-153.220822.0.iso/download"><img src="https://cloud.githubusercontent.com/assets/2692138/15225130/8ef35838-1842-11e6-915c-3a94c5a7f197.png"/></a>
         </figcaption>
       </figure>
     </div>
@@ -187,7 +187,7 @@ figcaption {
       <figure>
         <img src="https://cloud.githubusercontent.com/assets/2692138/11405426/99b1f312-9375-11e5-8fe1-f7529eb993ff.jpg"></a>
         <figcaption>GeckoLinux </br> <em>Static</em> </br> "Barebones"
-		      </br> <a href="https://sourceforge.net/projects/geckolinux/files/Static/153.220104/GeckoLinux_STATIC_BareBones.x86_64-153.220104.0.iso/download"><img src="https://cloud.githubusercontent.com/assets/2692138/15225130/8ef35838-1842-11e6-915c-3a94c5a7f197.png"/></a>
+		      </br> <a href="https://sourceforge.net/projects/geckolinux/files/Static/153.220822/GeckoLinux_STATIC_BareBones.x86_64-153.220822.0.iso/download"><img src="https://cloud.githubusercontent.com/assets/2692138/15225130/8ef35838-1842-11e6-915c-3a94c5a7f197.png"/></a>
         </figcaption>
       </figure>
     </div>
@@ -205,7 +205,7 @@ GeckoLinux <em>Rolling</em> editions are based on openSUSE Tumbleweed with its f
 <h5>
 	<p>
 		<strong>Notice: </strong>Please verify your download checksums by clicking the &nbsp; <strong><em>i</em></strong> &nbsp; icon next to your download in the 
-		<a href="https://sourceforge.net/projects/geckolinux/files/Rolling/999.220115/">Sourceforge directory listing</a>.
+		<a href="https://sourceforge.net/projects/geckolinux/files/Rolling/999.220820/">Sourceforge directory listing</a>.
 	</p>
 </h5>
 
@@ -215,7 +215,7 @@ GeckoLinux <em>Rolling</em> editions are based on openSUSE Tumbleweed with its f
       <figure>
         <img src="https://cloud.githubusercontent.com/assets/2692138/11373681/4f073e64-92a1-11e5-8ef0-cf8b778cb5cf.jpg"></a>
         <figcaption>GeckoLinux </br> <em>Rolling</em> </br> Cinnamon
-		      </br> <a href="https://sourceforge.net/projects/geckolinux/files/Rolling/999.220115/GeckoLinux_ROLLING_Cinnamon.x86_64-999.220115.0.iso/download"><img src="https://cloud.githubusercontent.com/assets/2692138/15225130/8ef35838-1842-11e6-915c-3a94c5a7f197.png"/></a>
+		      </br> <a href="https://sourceforge.net/projects/geckolinux/files/Rolling/999.220820/GeckoLinux_ROLLING_Cinnamon.x86_64-999.220820.0.iso/download"><img src="https://cloud.githubusercontent.com/assets/2692138/15225130/8ef35838-1842-11e6-915c-3a94c5a7f197.png"/></a>
 
         </figcaption>
       </figure>
@@ -224,7 +224,7 @@ GeckoLinux <em>Rolling</em> editions are based on openSUSE Tumbleweed with its f
       <figure>
         <img src="https://cloud.githubusercontent.com/assets/2692138/11373686/52ad351e-92a1-11e5-88c5-5c124301b8d7.png"></a>
         <figcaption>GeckoLinux </br> <em>Rolling</em> </br> XFCE
-		      </br> <a href="https://sourceforge.net/projects/geckolinux/files/Rolling/999.220115/GeckoLinux_ROLLING_XFCE.x86_64-999.220115.0.iso/download"><img src="https://cloud.githubusercontent.com/assets/2692138/15225130/8ef35838-1842-11e6-915c-3a94c5a7f197.png"/></a>
+		      </br> <a href="https://sourceforge.net/projects/geckolinux/files/Rolling/999.220820/GeckoLinux_ROLLING_XFCE.x86_64-999.220820.0.iso/download"><img src="https://cloud.githubusercontent.com/assets/2692138/15225130/8ef35838-1842-11e6-915c-3a94c5a7f197.png"/></a>
 
         </figcaption>
       </figure>
@@ -233,7 +233,7 @@ GeckoLinux <em>Rolling</em> editions are based on openSUSE Tumbleweed with its f
       <figure>
         <img src="https://cloud.githubusercontent.com/assets/2692138/11734338/69d405e8-9f84-11e5-9559-1b4b0f0d0d8f.png"></a>
         <figcaption>GeckoLinux </br> <em>Rolling</em> </br> Gnome
-		      </br> <a href="https://sourceforge.net/projects/geckolinux/files/Rolling/999.220115/GeckoLinux_ROLLING_Gnome.x86_64-999.220115.0.iso/download"><img src="https://cloud.githubusercontent.com/assets/2692138/15225130/8ef35838-1842-11e6-915c-3a94c5a7f197.png"/></a>
+		      </br> <a href="https://sourceforge.net/projects/geckolinux/files/Rolling/999.220820/GeckoLinux_ROLLING_Gnome.x86_64-999.220820.0.iso/download"><img src="https://cloud.githubusercontent.com/assets/2692138/15225130/8ef35838-1842-11e6-915c-3a94c5a7f197.png"/></a>
 
         </figcaption>
       </figure>
@@ -244,7 +244,7 @@ GeckoLinux <em>Rolling</em> editions are based on openSUSE Tumbleweed with its f
       <figure>
         <img src="https://cloud.githubusercontent.com/assets/2692138/11913089/5b5a4722-a626-11e5-925d-cd52cb491fad.png"></a>
         <figcaption>GeckoLinux </br> <em>Rolling</em> </br> Plasma
-		      </br> <a href="https://sourceforge.net/projects/geckolinux/files/Rolling/999.220115/GeckoLinux_ROLLING_Plasma.x86_64-999.220115.0.iso/download"><img src="https://cloud.githubusercontent.com/assets/2692138/15225130/8ef35838-1842-11e6-915c-3a94c5a7f197.png"/></a>
+		      </br> <a href="https://sourceforge.net/projects/geckolinux/files/Rolling/999.220820/GeckoLinux_ROLLING_Plasma.x86_64-999.220820.0.iso/download"><img src="https://cloud.githubusercontent.com/assets/2692138/15225130/8ef35838-1842-11e6-915c-3a94c5a7f197.png"/></a>
 
         </figcaption>
       </figure>
@@ -253,7 +253,7 @@ GeckoLinux <em>Rolling</em> editions are based on openSUSE Tumbleweed with its f
       <figure>
         <img src="https://cloud.githubusercontent.com/assets/2692138/11911482/ab09c4d8-a5e4-11e5-96a1-5b38a8f928f5.png"></a>
         <figcaption>GeckoLinux </br> <em>Rolling</em> </br> Mate
-		      </br> <a href="https://sourceforge.net/projects/geckolinux/files/Rolling/999.220115/GeckoLinux_ROLLING_Mate.x86_64-999.220115.0.iso/download"><img src="https://cloud.githubusercontent.com/assets/2692138/15225130/8ef35838-1842-11e6-915c-3a94c5a7f197.png"/></a>
+		      </br> <a href="https://sourceforge.net/projects/geckolinux/files/Rolling/999.220820/GeckoLinux_ROLLING_Mate.x86_64-999.220820.0.iso/download"><img src="https://cloud.githubusercontent.com/assets/2692138/15225130/8ef35838-1842-11e6-915c-3a94c5a7f197.png"/></a>
 
         </figcaption>
       </figure>
@@ -262,7 +262,7 @@ GeckoLinux <em>Rolling</em> editions are based on openSUSE Tumbleweed with its f
       <figure>
         <img src="https://cloud.githubusercontent.com/assets/2692138/11956434/2d5f7982-a888-11e5-9d25-5cd86a5028af.png"></a>
         <figcaption>GeckoLinux </br> <em>Rolling</em> </br> LXQt
-		      </br> <a href="https://sourceforge.net/projects/geckolinux/files/Rolling/999.220115/GeckoLinux_ROLLING_LXQt.x86_64-999.220115.0.iso/download"><img src="https://cloud.githubusercontent.com/assets/2692138/15225130/8ef35838-1842-11e6-915c-3a94c5a7f197.png"/></a>
+		      </br> <a href="https://sourceforge.net/projects/geckolinux/files/Rolling/999.220820/GeckoLinux_ROLLING_LXQt.x86_64-999.220820.0.iso/download"><img src="https://cloud.githubusercontent.com/assets/2692138/15225130/8ef35838-1842-11e6-915c-3a94c5a7f197.png"/></a>
 
         </figcaption>
       </figure>
@@ -273,7 +273,7 @@ GeckoLinux <em>Rolling</em> editions are based on openSUSE Tumbleweed with its f
       <figure>
         <img src="https://user-images.githubusercontent.com/2692138/91643419-b1100600-e9f8-11ea-92b1-9a9f885585bb.png"></a>
         <figcaption>GeckoLinux </br> <em>Rolling</em> </br> Budgie
-		      </br> <a href="https://sourceforge.net/projects/geckolinux/files/Rolling/999.220115/GeckoLinux_ROLLING_Budgie.x86_64-999.220115.0.iso/download"><img src="https://cloud.githubusercontent.com/assets/2692138/15225130/8ef35838-1842-11e6-915c-3a94c5a7f197.png"/></a>
+		      </br> <a href="https://sourceforge.net/projects/geckolinux/files/Rolling/999.220820/GeckoLinux_ROLLING_Budgie.x86_64-999.220820.0.iso/download"><img src="https://cloud.githubusercontent.com/assets/2692138/15225130/8ef35838-1842-11e6-915c-3a94c5a7f197.png"/></a>
 
         </figcaption>
       </figure>
@@ -282,7 +282,7 @@ GeckoLinux <em>Rolling</em> editions are based on openSUSE Tumbleweed with its f
       <figure>
         <img src="https://user-images.githubusercontent.com/2692138/91384122-75f0b580-e7f3-11ea-8757-a353efa596e8.png"></a>
         <figcaption>GeckoLinux </br> <em>Rolling-OBS</em> </br> Pantheon
-		      </br> <a href="https://sourceforge.net/projects/geckolinux/files/Rolling/999.220115/GeckoLinux_ROLLING-OBS_Pantheon.x86_64-999.220115.0.iso/download"><img src="https://cloud.githubusercontent.com/assets/2692138/15225130/8ef35838-1842-11e6-915c-3a94c5a7f197.png"/></a>
+		      </br> <a href="https://sourceforge.net/projects/geckolinux/files/Rolling/999.220820/GeckoLinux_ROLLING-OBS_Pantheon.x86_64-999.220820.0.iso/download"><img src="https://cloud.githubusercontent.com/assets/2692138/15225130/8ef35838-1842-11e6-915c-3a94c5a7f197.png"/></a>
 
         </figcaption>
       </figure>
@@ -291,7 +291,7 @@ GeckoLinux <em>Rolling</em> editions are based on openSUSE Tumbleweed with its f
       <figure>
         <img src="https://cloud.githubusercontent.com/assets/2692138/11405426/99b1f312-9375-11e5-8fe1-f7529eb993ff.jpg"></a>
         <figcaption>GeckoLinux </br> <em>Rolling</em> </br> "Barebones"
-		      </br> <a href="https://sourceforge.net/projects/geckolinux/files/Rolling/999.220115/GeckoLinux_ROLLING_BareBones.x86_64-999.220115.0.iso/download"><img src="https://cloud.githubusercontent.com/assets/2692138/15225130/8ef35838-1842-11e6-915c-3a94c5a7f197.png"/></a>
+		      </br> <a href="https://sourceforge.net/projects/geckolinux/files/Rolling/999.220820/GeckoLinux_ROLLING_BareBones.x86_64-999.220820.0.iso/download"><img src="https://cloud.githubusercontent.com/assets/2692138/15225130/8ef35838-1842-11e6-915c-3a94c5a7f197.png"/></a>
 
         </figcaption>
       </figure>
@@ -318,7 +318,7 @@ GeckoLinux <em>NEXT</em> editions have a stable openSUSE Leap base, combined wit
       <figure>
         <img src="https://cloud.githubusercontent.com/assets/2692138/11913089/5b5a4722-a626-11e5-925d-cd52cb491fad.png"></a>
         <figcaption>GeckoLinux <em>NEXT</em> Plasma</br>
-		      </br> <a href="https://sourceforge.net/projects/geckolinux/files/NEXT/GeckoLinux_NEXT_Plasma.x86_64-153.220105.0.iso/download"><img src="https://cloud.githubusercontent.com/assets/2692138/15225130/8ef35838-1842-11e6-915c-3a94c5a7f197.png"/></a>
+		      </br> <a href="https://sourceforge.net/projects/geckolinux/files/NEXT/GeckoLinux_NEXT_Plasma.x86_64-154.220827.0.iso/download"><img src="https://cloud.githubusercontent.com/assets/2692138/15225130/8ef35838-1842-11e6-915c-3a94c5a7f197.png"/></a>
 
         </figcaption>
       </figure>
